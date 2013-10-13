@@ -24,7 +24,7 @@ BuildRequires:	pkgconfig(eina)
 BuildRequires:	pkgconfig(ethumb)
 BuildRequires:	pkgconfig(ethumb_client)
 BuildRequires:	python-cython
-%py_requires -d
+BuildRequires:  python-devel
 
 %description
 Python support files for Ethumb.
